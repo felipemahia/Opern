@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap');
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/maps";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer--modificado {
+    background-color: map-get($footer, color-fondo-secundario);
+    .fab:hover {
+        color: $primary-color
+    }
+    .bi:hover {
+        color: $primary-color
+    }
+            i {
+                font-size: 20px;
+                padding: 1rem;
+                color: black;
+                
+                }
+                
+
+}
+.contenedor__footer--modificado {
+        background-color: $primary-color;
+        address {
+            color: white;
+            font-weight: 300;
+            font-size: 15px;
+        }
+}
+//El Negocio
+

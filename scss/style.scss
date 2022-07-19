@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+      font-family: "Poppins", sans-serif;
+    }
+ 
+//components
+
+  @import "./components/header";
+  @import "./components/main";
+  @import "./components/section";
+  @import "./components/footer";
+
+//base
+
+  @import "./base/variables";
+  @import "./base/extendes";
+  @import "./base/listas";
+  @import "./base/maps";
+  @import "./base/mixins";
+  
+  
+  

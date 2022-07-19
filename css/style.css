@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-modificada {
+  padding: 1rem;
+  border-bottom: 1px solid #38b634;
+}
+
+.navbar-modificada img {
+  width: 100px;
+  height: 60px;
+}
+
+.navlink-modificada {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.navlink-modificada:hover {
+  color: #38b634 !important;
+}
+
+.div-container-modificado {
+  padding: 30px;
+}
+.div-container-modificado div {
+  border: none;
+}
+
+.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-modificada {
+  padding: 1rem;
+  border-bottom: 1px solid #38b634;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-modificado {
+  background-color: grey;
+  border-color: black;
+  margin-top: 15px;
+  color: white;
+  font-weight: 600;
+}
+.btn-modificado:hover {
+  background-color: #38b634;
+}
+
+@media (max-width: 780px) {
+  .main__index {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .tarjeta--index {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.tarjeta--index p {
+  font-size: 60px;
+  font-weight: 600;
+}
+@media (max-width: 780px) {
+  .tarjeta--index p {
+    font-size: 30px;
+  }
+}
+.tarjeta--index h1 {
+  font-size: 25px;
+}
+
+.img-principal {
+  width: 90%;
+  padding: 1rem;
+}
+@media (max-width: 780px) {
+  .img-principal {
+    display: none;
+  }
+}
+
+.main__index {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.tabla--modificada {
+  margin-bottom: 100px;
+  font-size: larger;
+}
+@media (max-width: 780px) {
+  .tabla--modificada {
+    font-size: 12px;
+  }
+}
+
+.main__nosotros {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.main__nosotros h5 {
+  font-weight: 600;
+}
+.main__nosotros p {
+  font-size: 20px;
+}
+
+.titulo__nosotros {
+  font-weight: 600;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn-contacto--modificado {
+  background-color: gray;
+  color: white;
+  font-weight: 600;
+}
+.btn-contacto--modificado:hover {
+  background-color: #38b634;
+  color: white;
+}
+
+.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-modificada {
+  padding: 1rem;
+  border-bottom: 1px solid #38b634;
+}
+
+.section__index {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section__index h5 {
+  color: white;
+  font-weight: 600;
+}
+.section__index i {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 1rem;
+}
+.section__index em {
+  color: white;
+  font-weight: 600;
+}
+
+.tarjeta--modificada {
+  background-color: #38b634;
+}
+.tarjeta--modificada:hover {
+  background-color: gray;
+}
+
+.titulo__elnegocio {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.section__elnegocio {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+@media (max-width: 780px) {
+  .section__elnegocio {
+    font-size: 15px;
+  }
+}
+
+.titulo__galeria {
+  font-weight: 600;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section__galeria {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card-galeria--modificada h5 {
+  font-weight: 600;
+}
+.card-galeria--modificada p {
+  font-size: 20px;
+}
+
+.section__contacto {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.titulo__contacto {
+  font-weight: 600;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+textarea {
+  height: 10rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer--modificado {
+  background-color: #f1f1f1;
+}
+.footer--modificado .fab:hover {
+  color: #38b634;
+}
+.footer--modificado .bi:hover {
+  color: #38b634;
+}
+.footer--modificado i {
+  font-size: 20px;
+  padding: 1rem;
+  color: black;
+}
+
+.contenedor__footer--modificado {
+  background-color: #38b634;
+}
+.contenedor__footer--modificado address {
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.titulo__nosotros, .titulo__elnegocio, .titulo__galeria, .titulo__contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-modificada {
+  padding: 1rem;
+  border-bottom: 1px solid #38b634;
+}
+
+/*# sourceMappingURL=style.css.map */
