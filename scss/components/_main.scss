@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import "../base/variables";
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+//Index
+
+.btn-modificado {
+     
+    border-color: black; 
+    margin-top: 15px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.main__index {
+    @media (max-width: 780px) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    } 
+}
+
+.tarjeta--index {
+    @media (max-width: 780px) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+        
+
+}
+    
+    p {
+        font-size: 60px; 
+        font-weight: 600;
+        @media (max-width: 780px) {
+            font-size: 30px;
+        } 
+    }
+        h1 {
+            font-size: 25px;
+            
+        
+    }
+}
+
+.img-principal {
+    width: 90%;
+    padding: 1rem;
+    @media (max-width: 780px) {
+        display: none;
+    } 
+}
+
+
+
+//El Negocio
+
+.tabla--modificada {
+    
+    margin-bottom: 100px;
+    font-size: larger;
+    @media (max-width: 780px) {
+        font-size: 12px;
+    } 
+}
+
+ //Nosotros
+
+ .main__nosotros {
+   
+     h5 {
+         font-weight: 600;
+
+    }
+    p {
+        font-size: 20px;
+    }
+    
+}
+.titulo__nosotros {
+    
+    font-weight: 600;
+    padding-bottom: 30px;
+    
+}
+//Contacto 
+
+.btn-contacto--modificado {
+    background-color: gray;
+    color: white;
+    font-weight: 600;
+    &:hover {
+    
+        color:white;
+    }
+    
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap');
+@import "../base/variables";
+
+/*Eliminé extends, maps, mixins y creé variables*/
+body {
+    font-family: 'Poppins', sans-serif; /*La fuente de "The Boring Company es "-webkit-font-smoothing: antialiased;"*/
+}
+
+.footer--modificado {
+    
+    .fab:hover {
+        color: $secondary-color;
+    }
+    .bi:hover {
+        color:$secondary-color;
+    }
+            i {
+                font-size: 20px;
+                padding: 1rem;
+                color: black;
+                
+                }
+                
+
+}
+.contenedor__footer--modificado {
+       
+        address {
+            color: white;
+            font-weight: 300;
+            font-size: 15px;
+        }
+}
+//El Negocio
+

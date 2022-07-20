@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import "../base/variables";
+
+
+
+//Index
+
+.section__index {
+    
+   h5 {
+        color: white; 
+        font-weight: 600;
+        
+    }
+        
+            i {
+                font-size: 20px;
+                color: black;
+                margin-bottom: 1rem;
+                
+            }
+            em {
+                color: white;
+                font-weight: 600;
+            }
+                }
+        
+.tarjeta--modificada {
+    
+    background-color: $primary-color;
+        &:hover {
+        background-color: gray;
+        }
+}
+
+//El Negocio
+
+.titulo__elnegocio {
+    
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.section__elnegocio {
+    
+    font-size: 25px;
+    @media (max-width: 780px) {
+        font-size: 15px;
+    } 
+}
+
+//Galería
+
+.titulo__galeria {
+   
+    font-weight: 600;
+    padding-bottom: 30px;
+   
+}
+
+
+.card-galeria--modificada {
+    h5 {
+        font-weight: 600;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+//Contacto
+
+.section__contacto {
+   
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.titulo__contacto {
+    
+    font-weight: 600;
+    padding-bottom: 30px;
+    
+}
+
+textarea {
+    height: 10rem;
+}
+
+

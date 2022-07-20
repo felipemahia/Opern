@@ -1,0 +1,201 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-modificada img {
+  width: 100px;
+  height: 60px;
+}
+
+.navlink-modificada {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #7041fe;
+  font-family: "Poppins", sans-serif;
+}
+.navlink-modificada:hover {
+  color: #7041fe !important;
+}
+
+.div-container-modificado {
+  padding: 30px;
+}
+.div-container-modificado div {
+  border: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-modificado {
+  border-color: black;
+  margin-top: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 780px) {
+  .main__index {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .tarjeta--index {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.tarjeta--index p {
+  font-size: 60px;
+  font-weight: 600;
+}
+@media (max-width: 780px) {
+  .tarjeta--index p {
+    font-size: 30px;
+  }
+}
+.tarjeta--index h1 {
+  font-size: 25px;
+}
+
+.img-principal {
+  width: 90%;
+  padding: 1rem;
+}
+@media (max-width: 780px) {
+  .img-principal {
+    display: none;
+  }
+}
+
+.tabla--modificada {
+  margin-bottom: 100px;
+  font-size: larger;
+}
+@media (max-width: 780px) {
+  .tabla--modificada {
+    font-size: 12px;
+  }
+}
+
+.main__nosotros h5 {
+  font-weight: 600;
+}
+.main__nosotros p {
+  font-size: 20px;
+}
+
+.titulo__nosotros {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.btn-contacto--modificado {
+  background-color: gray;
+  color: white;
+  font-weight: 600;
+}
+.btn-contacto--modificado:hover {
+  color: white;
+}
+
+.section__index h5 {
+  color: white;
+  font-weight: 600;
+}
+.section__index i {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 1rem;
+}
+.section__index em {
+  color: white;
+  font-weight: 600;
+}
+
+.tarjeta--modificada {
+  background-color: #161e29;
+}
+.tarjeta--modificada:hover {
+  background-color: gray;
+}
+
+.titulo__elnegocio {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.section__elnegocio {
+  font-size: 25px;
+}
+@media (max-width: 780px) {
+  .section__elnegocio {
+    font-size: 15px;
+  }
+}
+
+.titulo__galeria {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.card-galeria--modificada h5 {
+  font-weight: 600;
+}
+.card-galeria--modificada p {
+  font-size: 20px;
+}
+
+.section__contacto {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.titulo__contacto {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+textarea {
+  height: 10rem;
+}
+
+/*Eliminé extends, maps, mixins y creé variables*/
+body {
+  font-family: "Poppins", sans-serif;
+  /*La fuente de "The Boring Company es "-webkit-font-smoothing: antialiased;"*/
+}
+
+.footer--modificado .fab:hover {
+  color: #7041fe;
+}
+.footer--modificado .bi:hover {
+  color: #7041fe;
+}
+.footer--modificado i {
+  font-size: 20px;
+  padding: 1rem;
+  color: black;
+}
+
+.contenedor__footer--modificado address {
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
