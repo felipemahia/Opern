@@ -1,6 +1,7 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
 * {
@@ -9,7 +10,11 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
 }
 
 .navbar-modificada img {
@@ -36,7 +41,16 @@ body {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+.links-laterales {
+  list-style: none;
+  text-decoration: none;
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  z-index: 99;
 }
 
 .btn-modificado {

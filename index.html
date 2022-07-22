@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
       <nav class="navbar navbar-expand-lg navbar-light navbar-modificada">
         <div class="container-fluid">
           <img src="./img/logo.webp" alt="logo Opern"  class="d-none d-sm-block img-logo">
@@ -48,7 +48,7 @@
         </div> 
       </nav>
     </header>
-    <main class="main__index container-fluid">
+    <main id="main" class="main__index container-fluid">
       <div class="row div-container-modificado" >
         <div class="col-sm-12 col-md-12 col-lg-12">
           <div class="card">
@@ -60,7 +60,15 @@
           </div>
         </div>
   </main>
-  <section class="col-sm-12 col-md-12 col-lg-12">
+  <nav id="lateral-nav">
+    <ul class="links-laterales">
+      <li><a href="#header">-</a></li>
+      <li><a href="#main">-</a></li>
+      <li><a href="#seccion1">-</a></li>
+      <li><a href="#seccion2">-</a></li>
+    </ul>
+  </nav>
+  <section id="seccion1" class="col-sm-12 col-md-12 col-lg-12">
     <div class="card">
       <div class="card-body tarjeta--index">
         <p class="card-text" >Sección</p>
@@ -69,7 +77,7 @@
       </div>
     </div>
   </section>
-  <section class="col-sm-12 col-md-12 col-lg-12">
+  <section id="seccion2" class="col-sm-12 col-md-12 col-lg-12">
     <div class="card">
       <div class="card-body tarjeta--index">
         <p class="card-text" >Otra sección</p>
@@ -78,7 +86,7 @@
       </div>
     </div>
   </section>          
-  <footer class="text-center text-white footer--modificado">
+  <footer id="footer" class="text-center text-white footer--modificado">
     <div class="container pt-4">
       <section class="mb-4">
         <a class="btn btn-link btn-floating btn-lg text-dark m-1"href="https://www.facebook.com/"role="button"data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
