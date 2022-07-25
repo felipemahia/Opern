@@ -253,7 +253,7 @@ body {
 }
 
 .contenedor__footer--modificado address {
-  color: white;
+  color: black;
   font-weight: 300;
   font-size: 15px;
 }
