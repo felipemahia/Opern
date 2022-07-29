@@ -13,13 +13,12 @@ body {
 
 
 /*Barra de navegación lateral Index - 
- No puedo quitar el underline ni ponerle color
- No puedo cambiar la font family
  Quitar underline de los botones (cambiar clase de los <a>)
  
  Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
+
 
 .links-laterales {
     list-style: none !important;
@@ -29,6 +28,9 @@ body {
     z-index: 99;
     font-weight: 600;
     color: grey;
+    @media (max-width: 480px) {
+        display: none; /*quitar nav lateral en dispositivos móviles*/
+    } 
 }
 a:link { color: #000; }
 a:visited { color: #000080; }
