@@ -10,7 +10,9 @@
 body {
     font-family: 'Roboto Slab', serif;
 }
-
+/* .navbar {
+    background: $primary-color;
+} */
 .navbar-modificada {
     
     img {
@@ -22,14 +24,16 @@ body {
         
 } 
 
+a .nav-link{
+    color: white;
 
-
+}
 
 .navlink-modificada {
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
-    color: $secondary-color;   
+    color: white;   
     font-family: "Poppins", sans-serif;
     &:hover {
         color:  #7041fe !important; 

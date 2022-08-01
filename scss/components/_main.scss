@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 @import "../base/variables";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap');
+
+
 
 
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif !important ;
+    /* font-family: 'Roboto Slab', serif; */
 }
 
 //Index
@@ -24,7 +28,6 @@ body {
     position: absolute;
 }
 
-
 .links-laterales {
     list-style: none !important;
     text-decoration: none !important;
@@ -40,7 +43,7 @@ body {
     }
 }
 
-a:link {
+/* a:link {
     color: #000;
 }
 
@@ -54,7 +57,7 @@ a:hover {
 
 a:active {
     color: #ff8000;
-}
+} */
 
 a {
     position: relative;
@@ -130,7 +133,9 @@ a:hover::after {
     }
 }
 
-
+.bgnone{
+    background-color: none;
+}
 
 //El Negocio
 
