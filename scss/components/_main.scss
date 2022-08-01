@@ -18,6 +18,12 @@ body {
  Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
+.imgFondo {
+    z-index: -100;
+    width: 80%;
+    position: absolute;
+}
+
 
 .links-laterales {
     list-style: none !important;
@@ -27,82 +33,101 @@ body {
     z-index: 99;
     font-weight: 600;
     color: grey;
+
     @media (max-width: 480px) {
-        display: none; /*quitar nav lateral en dispositivos móviles*/
-    } 
+        display: none;
+        /*quitar nav lateral en dispositivos móviles*/
+    }
 }
-a:link { color: #000; }
-a:visited { color: #000080; }
-a:hover { color: #ff0000; }
-a:active { color: #ff8000; }
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #000080;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a:active {
+    color: #ff8000;
+}
 
 a {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
 }
+
 a::after {
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  content: '';
-  width: 100%;
-  height: 2px;
-  background: #333;
-  transform: scale(0, 1);
-  transform-origin: right top;
-  transition: transform .3s;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
 }
+
 a:hover::after {
-  transform-origin: left top;
-  transform: scale(1, 1);
+    transform-origin: left top;
+    transform: scale(1, 1);
 }
 
 .btn-modificado {
-     
-    border-color: black; 
+
+    border-color: black;
     margin-top: 15px;
     color: white;
     font-weight: 600;
-    
+
 }
 
 .main__index {
     @media (max-width: 780px) {
         margin-top: 10px;
         margin-bottom: 10px;
-        
-    } 
+
+    }
 }
 
 .tarjeta--index {
     @media (max-width: 780px) {
         margin-top: 30px;
         margin-bottom: 30px;
-        
 
-}
-    
+
+    }
+
     p {
-        font-size: 60px; 
+        font-size: 60px;
         font-weight: 600;
+
         @media (max-width: 780px) {
             font-size: 30px;
-        } 
+        }
     }
-        h1 {
-            font-size: 25px;
-            
-        
+
+    h1 {
+        font-size: 25px;
+
+
     }
 }
 
 .img-principal {
     width: 90%;
     padding: 1rem;
+
     @media (max-width: 780px) {
         display: none;
-    } 
+    }
 }
 
 
@@ -110,42 +135,47 @@ a:hover::after {
 //El Negocio
 
 .tabla--modificada {
-    
+
     margin-bottom: 100px;
     font-size: larger;
+
     @media (max-width: 780px) {
         font-size: 12px;
-    } 
+    }
 }
 
- //Nosotros
+//Nosotros
 
- .main__nosotros {
-   
-     h5 {
-         font-weight: 600;
+.main__nosotros {
+
+    h5 {
+        font-weight: 600;
 
     }
+
     p {
         font-size: 20px;
     }
-    
+
 }
+
 .titulo__nosotros {
-    
+
     font-weight: 600;
     padding-bottom: 30px;
-    
+
 }
+
 //Contacto 
 
 .btn-contacto--modificado {
     background-color: gray;
     color: white;
     font-weight: 600;
+
     &:hover {
-    
-        color:white;
+
+        color: white;
     }
-    
+
 }
