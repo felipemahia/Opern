@@ -21,6 +21,9 @@ body {
 /* .navbar {
     background: $primary-color;
 } */
+.navbar-modificada {
+  color: white !important;
+}
 .navbar-modificada img {
   width: 100px;
   height: 60px;
@@ -50,6 +53,7 @@ a .nav-link {
 
 body {
   font-family: "Montserrat", sans-serif !important;
+  background-color: black;
   /* font-family: 'Roboto Slab', serif; */
 }
 
@@ -60,10 +64,15 @@ body {
  Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
-.imgFondo {
-  z-index: -100;
-  width: 100%;
-  position: absolute;
+.main__index {
+  background-color: black;
+}
+.main__index .tarjeta--index {
+  background-color: black;
+  color: white;
+}
+.main__index .tarjeta--index .btn-modificado {
+  color: white;
 }
 
 .links-laterales {
@@ -185,6 +194,11 @@ a:hover::after {
   color: white;
 }
 
+.tarjeta--index {
+  background-color: black;
+  color: white;
+}
+
 .section__index h5 {
   color: white;
   font-weight: 600;
@@ -246,11 +260,9 @@ textarea {
   height: 10rem;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  /*La fuente de "The Boring Company es "-webkit-font-smoothing: antialiased;"*/
+.footer--modificado {
+  color: white;
 }
-
 .footer--modificado .fab:hover {
   color: #7041fe;
 }
@@ -260,11 +272,11 @@ body {
 .footer--modificado i {
   font-size: 20px;
   padding: 1rem;
-  color: black;
+  color: white;
 }
 
-.contenedor__footer--modificado address {
-  color: black;
+.contenedor__footer--modificado p {
+  color: white;
   font-weight: 300;
   font-size: 15px;
 }
