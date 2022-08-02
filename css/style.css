@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
 * {
@@ -17,16 +18,23 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
+/* .navbar {
+    background: $primary-color;
+} */
 .navbar-modificada img {
   width: 100px;
   height: 60px;
+}
+
+a .nav-link {
+  color: white;
 }
 
 .navlink-modificada {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
-  color: #7041fe;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 .navlink-modificada:hover {
@@ -41,7 +49,8 @@ body {
 }
 
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif !important;
+  /* font-family: 'Roboto Slab', serif; */
 }
 
 /*No puedo cambiar la font family*/
@@ -51,6 +60,12 @@ body {
  Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
+.imgFondo {
+  z-index: -100;
+  width: 100%;
+  position: absolute;
+}
+
 .links-laterales {
   list-style: none !important;
   text-decoration: none !important;
@@ -67,22 +82,21 @@ body {
   }
 }
 
-a:link {
-  color: #000;
+/* a:link {
+    color: #000;
 }
 
 a:visited {
-  color: #000080;
+    color: #000080;
 }
 
 a:hover {
-  color: #ff0000;
+    color: #ff0000;
 }
 
 a:active {
-  color: #ff8000;
-}
-
+    color: #ff8000;
+} */
 a {
   position: relative;
   display: inline-block;
@@ -138,16 +152,6 @@ a:hover::after {
 }
 .tarjeta--index h1 {
   font-size: 25px;
-}
-
-.img-principal {
-  width: 90%;
-  padding: 1rem;
-}
-@media (max-width: 780px) {
-  .img-principal {
-    display: none;
-  }
 }
 
 .tabla--modificada {

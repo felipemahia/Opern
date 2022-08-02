@@ -1,11 +1,19 @@
 {
   "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemahia/Opern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felipemahia/Opern/issues"
+  },
+  "homepage": "https://github.com/felipemahia/Opern#readme",
+  "description": ""
 }
