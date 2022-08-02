@@ -2,11 +2,9 @@
 @import "../base/variables";
 
 
-body {
-    font-family: 'Poppins', sans-serif; /*La fuente de "The Boring Company es "-webkit-font-smoothing: antialiased;"*/
-}
 
 .footer--modificado {
+    color: white;
     
     .fab:hover {
         color: $secondary-color;
@@ -17,7 +15,7 @@ body {
             i {
                 font-size: 20px;
                 padding: 1rem;
-                color: black;
+                color: white;
                 
                 }
                 
@@ -25,8 +23,8 @@ body {
 }
 .contenedor__footer--modificado {
        
-        address {
-            color: black;
+        p {
+            color: white;
             font-weight: 300;
             font-size: 15px;
         }

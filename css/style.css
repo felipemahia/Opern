@@ -17,6 +17,9 @@ body {
 /* .navbar {
     background: $primary-color;
 } */
+.navbar-modificada {
+  color: white !important;
+}
 .navbar-modificada img {
   width: 100px;
   height: 60px;
@@ -46,8 +49,12 @@ a .nav-link {
 
 body {
   font-family: "Montserrat", sans-serif !important;
+<<<<<<< HEAD
   /* background-color: $primary-color;
   color: white; */
+=======
+  background-color: black;
+>>>>>>> 034ff707421240631e55af3e79d3a7453756f44b
   /* font-family: 'Roboto Slab', serif; */
 }
 
@@ -58,10 +65,15 @@ body {
  Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
-.imgFondo {
-  z-index: -100;
-  width: 80%;
-  position: absolute;
+.main__index {
+  background-color: black;
+}
+.main__index .tarjeta--index {
+  background-color: black;
+  color: white;
+}
+.main__index .tarjeta--index .btn-modificado {
+  color: white;
 }
 
 .links-laterales {
@@ -152,20 +164,6 @@ a:hover::after {
   font-size: 25px;
 }
 
-.img-principal {
-  width: 90%;
-  padding: 1rem;
-}
-@media (max-width: 780px) {
-  .img-principal {
-    display: none;
-  }
-}
-
-.bgnone {
-  background-color: none;
-}
-
 .tabla--modificada {
   margin-bottom: 100px;
   font-size: larger;
@@ -194,6 +192,11 @@ a:hover::after {
   font-weight: 600;
 }
 .btn-contacto--modificado:hover {
+  color: white;
+}
+
+.tarjeta--index {
+  background-color: black;
   color: white;
 }
 
@@ -258,10 +261,9 @@ textarea {
   height: 10rem;
 }
 
-body {
-  font-family: "Poppins", sans-serif; /*La fuente de "The Boring Company es "-webkit-font-smoothing: antialiased;"*/
+.footer--modificado {
+  color: white;
 }
-
 .footer--modificado .fab:hover {
   color: #7041fe;
 }
@@ -271,11 +273,11 @@ body {
 .footer--modificado i {
   font-size: 20px;
   padding: 1rem;
-  color: black;
+  color: white;
 }
 
-.contenedor__footer--modificado address {
-  color: black;
+.contenedor__footer--modificado p {
+  color: white;
   font-weight: 300;
   font-size: 15px;
 }
