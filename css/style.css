@@ -49,12 +49,7 @@ a .nav-link {
 
 body {
   font-family: "Montserrat", sans-serif !important;
-<<<<<<< HEAD
-  /* background-color: $primary-color;
-  color: white; */
-=======
-  background-color: black;
->>>>>>> 034ff707421240631e55af3e79d3a7453756f44b
+  background-color: rgb(177, 0, 0);
   /* font-family: 'Roboto Slab', serif; */
 }
 
@@ -66,7 +61,7 @@ body {
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
 .main__index {
-  background-color: black;
+  background-color: rgb(172, 0, 0);
 }
 .main__index .tarjeta--index {
   background-color: black;
