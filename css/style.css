@@ -14,10 +14,6 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
-body {
-  font-family: "Roboto Slab", serif;
-}
-
 /* .navbar {
     background: $primary-color;
 } */
@@ -50,6 +46,8 @@ a .nav-link {
 
 body {
   font-family: "Montserrat", sans-serif !important;
+  /* background-color: $primary-color;
+  color: white; */
   /* font-family: 'Roboto Slab', serif; */
 }
 
