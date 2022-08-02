@@ -1,5 +1,8 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
 * {
@@ -8,33 +11,33 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
-.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+/* .navbar {
+    background: $primary-color;
+} */
 .navbar-modificada {
-  padding: 1rem;
-  border-bottom: 1px solid #38b634;
+  color: white !important;
 }
-
 .navbar-modificada img {
   width: 100px;
   height: 60px;
 }
 
+a .nav-link {
+  color: white;
+}
+
 .navlink-modificada {
-  text-decoration: none;
-  color: black;
+  font-size: 15px;
   font-weight: 600;
+  text-decoration: none;
+  color: white !important;
   font-family: "Poppins", sans-serif;
 }
 .navlink-modificada:hover {
-  color: #38b634 !important;
+  color: #7041fe !important;
 }
 
 .div-container-modificado {
@@ -44,32 +47,86 @@ body {
   border: none;
 }
 
-.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar-modificada {
-  padding: 1rem;
-  border-bottom: 1px solid #38b634;
-}
-
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
+  background-color: rgb(177, 0, 0);
+  /* font-family: 'Roboto Slab', serif; */
+}
+
+/*No puedo cambiar la font family*/
+/*Barra de navegación lateral Index - 
+ Quitar underline de los botones (cambiar clase de los <a>)
+
+ Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
+ Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
+ */
+.main__index {
+  background-color: rgb(172, 0, 0);
+}
+.main__index .tarjeta--index {
+  background-color: black;
+  color: white;
+}
+.main__index .tarjeta--index .btn-modificado {
+  color: white;
+}
+
+.links-laterales {
+  list-style: none !important;
+  text-decoration: none !important;
+  position: fixed;
+  right: 20px;
+  z-index: 99;
+  font-weight: 600;
+  color: grey;
+}
+
+
+/* a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #000080;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a:active {
+    color: #ff8000;
+} */
+a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform 0.3s;
+}
+
+a:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
 }
 
 .btn-modificado {
-  background-color: grey;
   border-color: black;
   margin-top: 15px;
   color: white;
   font-weight: 600;
 }
-.btn-modificado:hover {
-  background-color: #38b634;
-}
-
 
 .tarjeta--index p {
   font-size: 60px;
@@ -80,27 +137,12 @@ body {
   font-size: 25px;
 }
 
-.img-principal {
-  width: 90%;
-  padding: 1rem;
-}
-
-
-.main__index {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
 .tabla--modificada {
   margin-bottom: 100px;
   font-size: larger;
 }
 
 
-.main__nosotros {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
 .main__nosotros h5 {
   font-weight: 600;
 }
@@ -111,8 +153,6 @@ body {
 .titulo__nosotros {
   font-weight: 600;
   padding-bottom: 30px;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .btn-contacto--modificado {
@@ -121,25 +161,14 @@ body {
   font-weight: 600;
 }
 .btn-contacto--modificado:hover {
-  background-color: #38b634;
   color: white;
 }
 
-.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.tarjeta--index {
+  background-color: black;
+  color: white;
 }
 
-.navbar-modificada {
-  padding: 1rem;
-  border-bottom: 1px solid #38b634;
-}
-
-.section__index {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 .section__index h5 {
   color: white;
   font-weight: 600;
@@ -155,7 +184,7 @@ body {
 }
 
 .tarjeta--modificada {
-  background-color: #38b634;
+  background-color: #161e29;
 }
 .tarjeta--modificada:hover {
   background-color: gray;
@@ -167,8 +196,6 @@ body {
 }
 
 .section__elnegocio {
-  margin-top: 40px;
-  margin-bottom: 40px;
   font-size: 25px;
 }
 
@@ -176,13 +203,6 @@ body {
 .titulo__galeria {
   font-weight: 600;
   padding-bottom: 30px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.section__galeria {
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .card-galeria--modificada h5 {
@@ -193,8 +213,6 @@ body {
 }
 
 .section__contacto {
-  margin-top: 40px;
-  margin-bottom: 40px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -202,56 +220,43 @@ body {
 .titulo__contacto {
   font-weight: 600;
   padding-bottom: 30px;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 textarea {
   height: 10rem;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 .footer--modificado {
-  background-color: #f1f1f1;
+  color: white;
 }
 .footer--modificado .fab:hover {
-  color: #38b634;
+  color: #7041fe;
 }
 .footer--modificado .bi:hover {
-  color: #38b634;
+  color: #7041fe;
 }
 .footer--modificado i {
   font-size: 20px;
   padding: 1rem;
-  color: black;
+  color: white;
 }
 
-.contenedor__footer--modificado {
-  background-color: #38b634;
-}
-.contenedor__footer--modificado address {
+.contenedor__footer--modificado p {
   color: white;
   font-weight: 300;
   font-size: 15px;
 }
 
-.titulo__nosotros, .titulo__elnegocio, .titulo__galeria, .titulo__contacto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.navbar-modificada {
-  padding: 1rem;
-  border-bottom: 1px solid #38b634;
-}
 
-/*# sourceMappingURL=style.css.map */
 
-/* MEDIA 780px */
+
+
+
+
+
+
+/* MEDIAS 780px */
 
 @media (max-width: 780px) {
   .main__index {
@@ -259,7 +264,6 @@ body {
     margin-bottom: 10px;
   }
 }
-
 @media (max-width: 780px) {
   .tarjeta--index {
     margin-top: 30px;
@@ -272,11 +276,6 @@ body {
   }
 }
 @media (max-width: 780px) {
-  .img-principal {
-    display: none;
-  }
-}
-@media (max-width: 780px) {
   .tabla--modificada {
     font-size: 12px;
   }
@@ -284,5 +283,14 @@ body {
 @media (max-width: 780px) {
   .section__elnegocio {
     font-size: 15px;
+  }
+}
+
+/* MEDIA QUERYS 480px */
+
+@media (max-width: 480px) {
+  .links-laterales {
+    display: none;
+    /*quitar nav lateral en dispositivos móviles*/
   }
 }
