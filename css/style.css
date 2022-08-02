@@ -70,28 +70,12 @@ body {
   background-color: #38b634;
 }
 
-@media (max-width: 780px) {
-  .main__index {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
 
-@media (max-width: 780px) {
-  .tarjeta--index {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-}
 .tarjeta--index p {
   font-size: 60px;
   font-weight: 600;
 }
-@media (max-width: 780px) {
-  .tarjeta--index p {
-    font-size: 30px;
-  }
-}
+
 .tarjeta--index h1 {
   font-size: 25px;
 }
@@ -100,11 +84,7 @@ body {
   width: 90%;
   padding: 1rem;
 }
-@media (max-width: 780px) {
-  .img-principal {
-    display: none;
-  }
-}
+
 
 .main__index {
   margin-top: 100px;
@@ -115,11 +95,7 @@ body {
   margin-bottom: 100px;
   font-size: larger;
 }
-@media (max-width: 780px) {
-  .tabla--modificada {
-    font-size: 12px;
-  }
-}
+
 
 .main__nosotros {
   margin-top: 40px;
@@ -195,11 +171,7 @@ body {
   margin-bottom: 40px;
   font-size: 25px;
 }
-@media (max-width: 780px) {
-  .section__elnegocio {
-    font-size: 15px;
-  }
-}
+
 
 .titulo__galeria {
   font-weight: 600;
@@ -278,3 +250,39 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* MEDIA 780px */
+
+@media (max-width: 780px) {
+  .main__index {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .tarjeta--index {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 780px) {
+  .tarjeta--index p {
+    font-size: 30px;
+  }
+}
+@media (max-width: 780px) {
+  .img-principal {
+    display: none;
+  }
+}
+@media (max-width: 780px) {
+  .tabla--modificada {
+    font-size: 12px;
+  }
+}
+@media (max-width: 780px) {
+  .section__elnegocio {
+    font-size: 15px;
+  }
+}
