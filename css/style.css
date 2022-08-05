@@ -18,15 +18,11 @@ body {
     background: $primary-color;
 } */
 .navbar-modificada {
-  color: white !important;
+  color: white;
 }
 .navbar-modificada img {
   width: 100px;
-  height: 60px;
-}
-
-a .nav-link {
-  color: white;
+  height: 30px;
 }
 
 .navlink-modificada {
@@ -47,15 +43,13 @@ a .nav-link {
   border: none;
 }
 
+.btn-contacto {
+  border: 1px #7041fe solid;
+  border-radius: 20px;
+}
+
 body {
   font-family: "Montserrat", sans-serif !important;
-<<<<<<< HEAD
-  /* background-color: $primary-color;
-  color: white; */
-=======
-  background-color: black;
->>>>>>> 034ff707421240631e55af3e79d3a7453756f44b
-  /* font-family: 'Roboto Slab', serif; */
 }
 
 /*No puedo cambiar la font family*/
@@ -107,13 +101,13 @@ a:hover {
 a:active {
     color: #ff8000;
 } */
-a {
+nav > a {
   position: relative;
   display: inline-block;
   text-decoration: none;
 }
 
-a::after {
+nav > a::after {
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -126,7 +120,7 @@ a::after {
   transition: transform 0.3s;
 }
 
-a:hover::after {
+nav > a:hover::after {
   transform-origin: left top;
   transform: scale(1, 1);
 }
@@ -221,6 +215,14 @@ a:hover::after {
   background-color: gray;
 }
 
+.reconocimiento-facial {
+  border: none;
+}
+
+.reconocimiento-armas {
+  border: none;
+}
+
 .titulo__elnegocio {
   font-weight: 600;
   padding-bottom: 30px;
@@ -262,7 +264,7 @@ textarea {
 }
 
 .footer--modificado {
-  color: white;
+  color: grey;
 }
 .footer--modificado .fab:hover {
   color: #7041fe;
@@ -277,7 +279,7 @@ textarea {
 }
 
 .contenedor__footer--modificado p {
-  color: white;
+  color: grey;
   font-weight: 300;
   font-size: 15px;
 }

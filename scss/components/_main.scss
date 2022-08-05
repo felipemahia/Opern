@@ -8,14 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif !important ;
-<<<<<<< HEAD
-    /* background-color: $primary-color;
-    color: white; */
-=======
-    background-color: black;
->>>>>>> 034ff707421240631e55af3e79d3a7453756f44b
-    /* font-family: 'Roboto Slab', serif; */
-}
+    }
 
 //Index
 
@@ -72,13 +65,13 @@ a:active {
     color: #ff8000;
 } */
 
-a {
+nav>a {
     position: relative;
     display: inline-block;
     text-decoration: none;
 }
 
-a::after {
+nav>a::after {
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -91,7 +84,7 @@ a::after {
     transition: transform .3s;
 }
 
-a:hover::after {
+nav>a:hover::after {
     transform-origin: left top;
     transform: scale(1, 1);
 }

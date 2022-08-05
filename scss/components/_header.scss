@@ -10,21 +10,18 @@
     background: $primary-color;
 } */
 .navbar-modificada {
-    color: white !important;
+    color: white;
     
     img {
           
         width: 100px;
-        height: 60px;
+        height: 30px;
 
     }
         
 } 
 
-a .nav-link{
-    color: white;
 
-}
 
 .navlink-modificada {
     font-size: 15px;
@@ -45,3 +42,8 @@ a .nav-link{
     }
 }
 
+.btn-contacto {
+    border: 1px $secondary-color solid;
+    border-radius: 20px;
+
+}
