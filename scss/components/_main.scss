@@ -71,30 +71,16 @@ nav>a {
     text-decoration: none;
 }
 
-nav>a::after {
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #333;
-    transform: scale(0, 1);
-    transform-origin: right top;
-    transition: transform .3s;
-}
-
-nav>a:hover::after {
-    transform-origin: left top;
-    transform: scale(1, 1);
-}
 
 .btn-modificado {
 
-    border-color: black;
+    border-color: $secondary-color;
     margin-top: 15px;
     color: white;
     font-weight: 600;
+    & :hover {
+        background-color: $terciary-color;
+    }
 
 }
 
@@ -127,21 +113,6 @@ nav>a:hover::after {
         font-size: 25px;
 
 
-    }
-}
-
-
-
-
-//El Negocio
-
-.tabla--modificada {
-
-    margin-bottom: 100px;
-    font-size: larger;
-
-    @media (max-width: 780px) {
-        font-size: 12px;
     }
 }
 

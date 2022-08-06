@@ -107,29 +107,14 @@ nav > a {
   text-decoration: none;
 }
 
-nav > a::after {
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 2px;
-  background: #333;
-  transform: scale(0, 1);
-  transform-origin: right top;
-  transition: transform 0.3s;
-}
-
-nav > a:hover::after {
-  transform-origin: left top;
-  transform: scale(1, 1);
-}
-
 .btn-modificado {
-  border-color: black;
+  border-color: #7041fe;
   margin-top: 15px;
   color: white;
   font-weight: 600;
+}
+.btn-modificado :hover {
+  background-color: #f4a74d;
 }
 
 @media (max-width: 780px) {
@@ -156,16 +141,6 @@ nav > a:hover::after {
 }
 .tarjeta--index h1 {
   font-size: 25px;
-}
-
-.tabla--modificada {
-  margin-bottom: 100px;
-  font-size: larger;
-}
-@media (max-width: 780px) {
-  .tabla--modificada {
-    font-size: 12px;
-  }
 }
 
 .main__nosotros h5 {
@@ -220,6 +195,14 @@ nav > a:hover::after {
 }
 
 .reconocimiento-armas {
+  border: none;
+}
+
+.section-imagen {
+  border: none;
+}
+
+.card-principal {
   border: none;
 }
 
