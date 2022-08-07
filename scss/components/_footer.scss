@@ -2,18 +2,22 @@
 @import "../base/variables";
 
 
-
+.footer--modificado {
+    height:400px;
+    background-image: url(/img/Fondo.png);
+    background-size: 100% 100%
+}
 .footer--modificado {
     color: grey;
     
     .fab:hover {
-        color: $secondary-color;
+        color: $terciary-color;
     }
     .fa-instagram:hover {
-        color:$secondary-color;
+        color:$terciary-color;
     }
     .bi:hover {
-        color:$secondary-color;
+        color:$terciary-color;
     }
             i {
                 font-size: 20px;

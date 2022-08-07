@@ -254,16 +254,22 @@ textarea {
 }
 
 .footer--modificado {
+  height: 400px;
+  background-image: url(/img/Fondo.png);
+  background-size: 100% 100%;
+}
+
+.footer--modificado {
   color: grey;
 }
 .footer--modificado .fab:hover {
-  color: #7041fe;
+  color: #f4a74d;
 }
 .footer--modificado .fa-instagram:hover {
-  color: #7041fe;
+  color: #f4a74d;
 }
 .footer--modificado .bi:hover {
-  color: #7041fe;
+  color: #f4a74d;
 }
 .footer--modificado i {
   font-size: 20px;
