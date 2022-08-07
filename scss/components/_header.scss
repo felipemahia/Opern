@@ -10,9 +10,11 @@
     background: $primary-color;
 } */
 .navbar-modificada {
-    color: white !important;
-    background-color: #212933;
     
+    background-color: #212933;
+    a {
+        color: white !important;
+    }
     img {
           
         width: 100px;

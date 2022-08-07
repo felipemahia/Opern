@@ -18,7 +18,10 @@ body {
     background: $primary-color;
 } */
 .navbar-modificada {
-  color: white;
+  background-color: #212933;
+}
+.navbar-modificada a {
+  color: white !important;
 }
 .navbar-modificada img {
   width: 100px;
