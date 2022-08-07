@@ -65,15 +65,20 @@ body {
  Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
-.main__index {
-  background-color: #212933;
-}
 .main__index .tarjeta--index {
-  background-color: #212933;
   color: white;
 }
 .main__index .tarjeta--index .btn-modificado {
   color: white;
+}
+.main__index .tarjeta--index .btn-modificado:hover {
+  color: #f4a74d;
+}
+
+.main__index {
+  height: 700px;
+  background-image: url(/img/foto\ opern.jpg);
+  background-size: 100% 100%;
 }
 
 .links-laterales {
@@ -165,8 +170,10 @@ a:active {
 }
 
 .tarjeta--index {
-  background-color: #212933;
   color: white;
+}
+.tarjeta--index a:hover {
+  color: #f4a74d;
 }
 
 .section__index h5 {

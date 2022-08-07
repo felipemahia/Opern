@@ -6,8 +6,13 @@
 //Index
 
 .tarjeta--index {
-    background-color: #212933;
+    
     color: white;
+    a {
+        &:hover {
+            color:$terciary-color;
+        }
+    }
 
 }
 

@@ -22,17 +22,26 @@ body {
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
 .main__index {
-    background-color: #212933;
+    
     
     .tarjeta--index {
-        background-color: #212933;
+        
         color: white;
         .btn-modificado {
             color: white;
+            &:hover {
+                color:$terciary-color;
+            }
         }
+        
     }
 }
 
+.main__index {
+    height:700px;
+    background-image: url(/img/foto\ opern.jpg);
+    background-size: 100% 100%
+}
 
 .links-laterales {
     list-style: none !important;
