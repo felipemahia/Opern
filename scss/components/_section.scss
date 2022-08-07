@@ -6,7 +6,7 @@
 //Index
 
 .tarjeta--index {
-    background-color: black;
+    background-color: #212933;
     color: white;
 
 }
@@ -33,9 +33,10 @@
         
 .tarjeta--modificada {
     
-    background-color: $primary-color;
+    background-color: #212933;
         &:hover {
-        background-color: gray;
+        color: $terciary-color !important;
+        
         }
 }
 
@@ -53,7 +54,7 @@
 .card-principal {
     border: none;
 }
-//El Negocio
+//Que hacemos
 
 .titulo__elnegocio {
     
@@ -69,7 +70,7 @@
     } 
 }
 
-//Galería
+//Productos
 
 .titulo__galeria {
    

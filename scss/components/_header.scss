@@ -30,9 +30,15 @@
     color: white;   
     font-family: "Poppins", sans-serif;
     &:hover {
-        color:  #7041fe !important; 
+        color:  $terciary-color !important; 
     }
     
+    
+}
+.btn-contacto {
+    @media (max-width: 780px) {
+        border: none;
+    } 
 }
 
 .div-container-modificado {

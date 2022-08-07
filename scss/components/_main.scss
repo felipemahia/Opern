@@ -22,10 +22,10 @@ body {
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
 .main__index {
-    background-color: black;
+    background-color: #212933;
     
     .tarjeta--index {
-        background-color: black;
+        background-color: #212933;
         color: white;
         .btn-modificado {
             color: white;
@@ -65,11 +65,11 @@ a:active {
     color: #ff8000;
 } */
 
-nav>a {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-}
+// a {
+//     position: relative;
+//     display: inline-block;
+//     text-decoration: none;
+// }
 
 
 .btn-modificado {
@@ -79,7 +79,7 @@ nav>a {
     color: white;
     font-weight: 600;
     & :hover {
-        background-color: $terciary-color;
+        color: $terciary-color !important;
     }
 
 }
