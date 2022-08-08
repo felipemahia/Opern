@@ -15,9 +15,6 @@ body {
   background-color: #212933;
 }
 
-/* .navbar {
-    background: $primary-color;
-} */
 #header {
   position: sticky;
   top: 0;
@@ -256,6 +253,7 @@ a:active {
 }
 
 .titulo__contacto {
+  color: #f4a74d;
   font-weight: 600;
   padding-bottom: 30px;
 }

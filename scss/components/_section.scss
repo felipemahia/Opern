@@ -85,6 +85,7 @@
 }
 
 
+
 .card-galeria--modificada {
     h5 {
         font-weight: 600;
@@ -101,15 +102,17 @@
     font-size: 20px;
     font-weight: 600;
     
+    
 }
 .titulo__contacto {
-    
+    color: $terciary-color;
     font-weight: 600;
     padding-bottom: 30px;
     
 }
 
 textarea {
+
     height: 10rem;
 }
 
