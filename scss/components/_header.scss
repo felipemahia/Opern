@@ -9,6 +9,11 @@
 /* .navbar {
     background: $primary-color;
 } */
+
+#header {
+    position: sticky;
+    top: 0;
+}
 .navbar-modificada {
     
     background-color: #212933;
@@ -38,8 +43,10 @@
     
     
 }
+
+// Revisar esta media query para quitar borde de botón contacto 
 .btn-contacto {
-    @media (max-width: 780px) {
+    @media screen and (min-width: 571px) {
         border: none;
     } 
 }
