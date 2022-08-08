@@ -8,10 +8,14 @@
 
 body {
     font-family: 'Montserrat', sans-serif !important ;
+<<<<<<< HEAD
     /* background-color: $primary-color;
     color: whgitite; */
     /* font-family: 'Roboto Slab', serif; */
 }
+=======
+    }
+>>>>>>> b0afbe4f347ba4cd2a8877769ad27192388151d1
 
 //Index
 
@@ -25,17 +29,26 @@ body {
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
 .main__index {
-    background-color: black;
+    
     
     .tarjeta--index {
-        background-color: black;
+        
         color: white;
         .btn-modificado {
             color: white;
+            &:hover {
+                color:$terciary-color;
+            }
         }
+        
     }
 }
 
+.main__index {
+    height:700px;
+    background-image: url(/img/foto\ opern.jpg);
+    background-size: 100% 100%
+}
 
 .links-laterales {
     list-style: none !important;
@@ -68,36 +81,22 @@ a:active {
     color: #ff8000;
 } */
 
-a {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-}
+// a {
+//     position: relative;
+//     display: inline-block;
+//     text-decoration: none;
+// }
 
-a::after {
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #333;
-    transform: scale(0, 1);
-    transform-origin: right top;
-    transition: transform .3s;
-}
-
-a:hover::after {
-    transform-origin: left top;
-    transform: scale(1, 1);
-}
 
 .btn-modificado {
 
-    border-color: black;
+    border-color: $secondary-color;
     margin-top: 15px;
     color: white;
     font-weight: 600;
+    & :hover {
+        color: $terciary-color !important;
+    }
 
 }
 
@@ -130,21 +129,6 @@ a:hover::after {
         font-size: 25px;
 
 
-    }
-}
-
-
-
-
-//El Negocio
-
-.tabla--modificada {
-
-    margin-bottom: 100px;
-    font-size: larger;
-
-    @media (max-width: 780px) {
-        font-size: 12px;
     }
 }
 

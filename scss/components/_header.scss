@@ -5,26 +5,27 @@
 
 @import "../base/variables";
 
-//
-/* .navbar {
-    background: $primary-color;
-} */
+
+#header {
+    position: sticky;
+    top: 0;
+}
 .navbar-modificada {
-    color: white !important;
     
+    background-color: #212933;
+    a {
+        color: white !important;
+    }
     img {
           
         width: 100px;
-        height: 60px;
+        height: 30px;
 
     }
         
 } 
 
-a .nav-link{
-    color: white;
 
-}
 
 .navlink-modificada {
     font-size: 15px;
@@ -33,9 +34,17 @@ a .nav-link{
     color: white;   
     font-family: "Poppins", sans-serif;
     &:hover {
-        color:  #7041fe !important; 
+        color:  $terciary-color !important; 
     }
     
+    
+}
+
+// Revisar esta media query para quitar borde de botón contacto 
+.btn-contacto {
+    @media screen and (min-width: 571px) {
+        border: none;
+    } 
 }
 
 .div-container-modificado {
@@ -45,3 +54,8 @@ a .nav-link{
     }
 }
 
+.btn-contacto {
+    border: 1px $secondary-color solid;
+    border-radius: 20px;
+
+}
