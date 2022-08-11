@@ -45,7 +45,9 @@ body {
     
     height:800px;
     background-image: url(/img/foto\ opern.jpg);
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
     
 }
 
@@ -91,7 +93,7 @@ a:active {
     @media (max-width: 780px) {
         margin-top: 10px;
         margin-bottom: 10px;
-
+        
     }
 }
 

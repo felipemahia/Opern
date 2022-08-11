@@ -11,7 +11,6 @@
     top: 0;
 }
 .navbar-modificada {
-    
     background-color: #212933;
     a {
         color: white !important;
@@ -20,7 +19,6 @@
           
         width: 100px;
         height: 30px;
-
     }
         
 } 
@@ -36,26 +34,24 @@
     &:hover {
         color:  $terciary-color !important; 
     }
-    
-    
+    &:hover.btn-contacto {
+        color: $secondary-color !important;
+    }
 }
 
 // Revisar esta media query para quitar borde de botón contacto 
-.btn-contacto {
-    @media screen and (min-width: 571px) {
-        border: none;
-    } 
-}
-
 .div-container-modificado {
     padding: 30px;
     div {
         border: none;
     }
 }
-
 .btn-contacto {
     border: 1px $secondary-color solid;
     border-radius: 20px;
-
+}
+.btn-contacto {
+    @media screen and (max-width: 574px) {
+        border: none;
+    } 
 }
