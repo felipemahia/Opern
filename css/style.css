@@ -62,6 +62,11 @@ body {
 
 body {
   font-family: "Montserrat", sans-serif !important;
+<<<<<<< HEAD
+  background-color: rgb(177, 0, 0);
+  /* font-family: 'Roboto Slab', serif; */
+=======
+>>>>>>> b0afbe4f347ba4cd2a8877769ad27192388151d1
 }
 
 /*No puedo cambiar la font family*/
@@ -71,6 +76,12 @@ body {
  Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
+<<<<<<< HEAD
+.main__index {
+  background-color: rgb(172, 0, 0);
+}
+=======
+>>>>>>> b0afbe4f347ba4cd2a8877769ad27192388151d1
 .main__index .tarjeta--index {
   color: white;
 }
