@@ -38,25 +38,15 @@ body {
 }
 
 .main__index {
+    
     height:700px;
     background-image: url(/img/foto\ opern.jpg);
-    background-size: 100% 100%
+    background-size: 100% 100%;
+    
 }
 
-.links-laterales {
-    list-style: none !important;
-    text-decoration: none !important;
-    position: fixed;
-    right: 20px;
-    z-index: 99;
-    font-weight: 600;
-    color: grey;
 
-    @media (max-width: 480px) {
-        display: none;
-        /*quitar nav lateral en dispositivos móviles*/
-    }
-}
+
 
 /* a:link {
     color: #000;
