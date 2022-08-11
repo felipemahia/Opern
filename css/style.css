@@ -62,13 +62,11 @@ body {
 
 body {
   font-family: "Montserrat", sans-serif !important;
-<<<<<<< HEAD
-  background-color: rgb(177, 0, 0);
-  /* font-family: 'Roboto Slab', serif; */
-=======
->>>>>>> b0afbe4f347ba4cd2a8877769ad27192388151d1
 }
 
+/* background-color: $primary-color;
+color: whgitite; */
+/* font-family: 'Roboto Slab', serif; */
 /*No puedo cambiar la font family*/
 /*Barra de navegación lateral Index - 
  Quitar underline de los botones (cambiar clase de los <a>)
@@ -76,12 +74,6 @@ body {
  Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
  Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
  */
-<<<<<<< HEAD
-.main__index {
-  background-color: rgb(172, 0, 0);
-}
-=======
->>>>>>> b0afbe4f347ba4cd2a8877769ad27192388151d1
 .main__index .tarjeta--index {
   color: white;
 }
@@ -93,7 +85,7 @@ body {
 }
 
 .main__index {
-  height: 700px;
+  height: 800px;
   background-image: url(/img/foto\ opern.jpg);
   background-size: 100% 100%;
 }
@@ -215,8 +207,15 @@ a:active {
 }
 
 .titulo__elnegocio {
+  color: white;
   font-weight: 600;
   padding-bottom: 30px;
+}
+
+.parrafo__elnegocio {
+  text-align: justify;
+  text-align-last: left;
+  color: white;
 }
 
 .section__elnegocio {
@@ -229,6 +228,7 @@ a:active {
 }
 
 .titulo__galeria {
+  color: white;
   font-weight: 600;
   padding-bottom: 30px;
 }
@@ -259,7 +259,7 @@ textarea {
 
 .footer--modificado {
   height: 400px;
-  background-image: url(/img/Fondo.png);
+  background-image: url(/img/fondo2.png);
   background-size: 100% 100%;
 }
 
