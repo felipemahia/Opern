@@ -73,9 +73,11 @@
     color: white;
 }
 .btn-modificado--quehacemos{
+    color: white;
     background-color: $secondary-color;
     &:hover{
         background-color: $terciary-color;
+        color: white;
     }
 }
 
