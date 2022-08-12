@@ -224,10 +224,12 @@ a:active {
 }
 
 .btn-modificado--quehacemos {
+  color: white;
   background-color: #7041fe;
 }
 .btn-modificado--quehacemos:hover {
   background-color: #f4a74d;
+  color: white;
 }
 
 .section__elnegocio {
