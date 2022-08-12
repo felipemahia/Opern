@@ -72,6 +72,14 @@
     text-align-last: left ;
     color: white;
 }
+.btn-modificado--quehacemos{
+    color: white;
+    background-color: $secondary-color;
+    &:hover{
+        background-color: $terciary-color;
+        color: white;
+    }
+}
 
 .section__elnegocio {
     
@@ -79,6 +87,12 @@
     @media (max-width: 780px) {
         font-size: 15px;
     } 
+}
+
+// Nosotros
+
+.titulo__nosotros{
+    color: white;
 }
 
 //Productos
@@ -110,13 +124,12 @@
 }
 //Contacto
 
+
 .section__contacto {
-    display: flex;
+    width: 50%;
     justify-content: center;
     font-size: 20px;
     font-weight: 600;
-    
-    
 }
 .titulo__contacto {
     color: $terciary-color;
@@ -124,10 +137,21 @@
     padding-bottom: 30px;
     
 }
+.form-label{
+    color: white;
+}
+.form-control{
+    
+}
 
 textarea {
-
     height: 10rem;
 }
 
-
+.btn-contacto--modificado{
+    background-color: $secondary-color;
+    &:hover{
+        font-size: 1.30rem;
+        background-color: $terciary-color;
+    }
+}
