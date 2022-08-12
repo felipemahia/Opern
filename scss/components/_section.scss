@@ -114,6 +114,14 @@
         font-size: 20px;
     }
 }
+
+.btn-contacto--modificado {
+    color: $fourth-color;
+    &:hover {
+        background-color: $terciary-color;
+        color: $secondary-color;
+    }
+}
 //Contacto
 
 
