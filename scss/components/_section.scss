@@ -60,6 +60,21 @@
     border: none;
 }
 
+.subtítulo__index {
+    h5 {
+        text-decoration: underline $fourth-color;
+    }
+}
+.cards__index {
+    img {
+        width: 100px;
+        height: 80px;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
 //Que hacemos
 
 .titulo__elnegocio {
@@ -151,7 +166,6 @@ textarea {
 .btn-contacto--modificado{
     background-color: $secondary-color;
     &:hover{
-        font-size: 1.30rem;
         background-color: $terciary-color;
     }
 }

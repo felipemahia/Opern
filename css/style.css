@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -89,7 +90,7 @@ color: whgitite; */
 
 .main__index {
   height: 800px;
-  background-image: url(/img/foto\ opern.jpg);
+  background-image: url(/img/fondo2.png);
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -211,6 +212,18 @@ a:active {
   border: none;
 }
 
+.subtítulo__index h5 {
+  text-decoration: underline #25c087;
+}
+
+.cards__index img {
+  width: 100px;
+  height: 80px;
+}
+.cards__index img:hover {
+  color: #7041fe;
+}
+
 .titulo__elnegocio {
   color: white;
   font-weight: 600;
@@ -224,10 +237,12 @@ a:active {
 }
 
 .btn-modificado--quehacemos {
+  color: white;
   background-color: #7041fe;
 }
 .btn-modificado--quehacemos:hover {
   background-color: #f4a74d;
+  color: white;
 }
 
 .section__elnegocio {
@@ -289,7 +304,6 @@ textarea {
   background-color: #7041fe;
 }
 .btn-contacto--modificado:hover {
-  font-size: 1.3rem;
   background-color: #f4a74d;
 }
 
