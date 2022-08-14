@@ -60,6 +60,26 @@
     border: none;
 }
 
+.subtítulo__index {
+    h5 {
+        text-decoration-line: underline !important;
+        margin-bottom: 30px;
+    }
+}
+.cards__index {
+    margin-left: 40px;
+    margin-right: 40px;
+    z-index: -1;
+    
+    img {
+        width: 100px;
+        height: 80px;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
 //Que hacemos
 
 .titulo__elnegocio {
@@ -104,8 +124,6 @@
    
 }
 
-
-
 .card-galeria--modificada {
     h5 {
         font-weight: 600;
@@ -122,8 +140,16 @@
         color: $secondary-color;
     }
 }
-//Contacto
+.section__galeria {
+    margin-left: 100px;
+    margin-right: 100px;
+    img {
+        width: 100px;
+        height: 80px;
+    }
+}
 
+//Contacto
 
 .section__contacto {
     width: 50%;
@@ -151,7 +177,6 @@ textarea {
 .btn-contacto--modificado{
     background-color: $secondary-color;
     &:hover{
-        font-size: 1.30rem;
         background-color: $terciary-color;
     }
 }

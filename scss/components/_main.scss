@@ -18,13 +18,6 @@ body {
 
 /*No puedo cambiar la font family*/
 
-
-/*Barra de navegación lateral Index - 
- Quitar underline de los botones (cambiar clase de los <a>)
- 
- Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
- Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
- */
 .main__index {
     
     
@@ -44,38 +37,20 @@ body {
 .main__index {
     
     height:800px;
-    background-image: url(/img/foto\ opern.jpg);
+    background-image: url(/img/fondo2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
+    z-index: -1;
     
 }
-
-
-
-
-/* a:link {
-    color: #000;
+.subtítulo__index {
+    margin-bottom: 20vh;
+    padding-left: 5vh;
+    h2 {
+        text-decoration-line: underline ;    
+    }
 }
-
-a:visited {
-    color: #000080;
-}
-
-a:hover {
-    color: #ff0000;
-}
-
-a:active {
-    color: #ff8000;
-} */
-
-// a {
-//     position: relative;
-//     display: inline-block;
-//     text-decoration: none;
-// }
-
 
 .btn-modificado {
 
@@ -98,6 +73,10 @@ a:active {
 }
 
 .tarjeta--index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     @media (max-width: 780px) {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -124,7 +103,7 @@ a:active {
 //Nosotros
 
 .main__nosotros {
-
+    
     h5 {
         font-weight: 600;
 

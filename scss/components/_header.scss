@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap');
-
-
-
-
 @import "../base/variables";
 
 
 #header {
     position: sticky;
     top: 0;
-}
+} /*No tomó el  sticky*/
+
 .navbar-modificada {
     background-color: #212933;
+    
     a {
         color: white !important;
     }
@@ -22,8 +20,6 @@
     }
         
 } 
-
-
 
 .navlink-modificada {
     font-size: 15px;
