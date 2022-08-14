@@ -21,6 +21,7 @@ body {
   top: 0;
 }
 
+/*No tomó el  sticky*/
 .navbar-modificada {
   background-color: #212933;
 }
@@ -72,12 +73,6 @@ body {
 color: whgitite; */
 /* font-family: 'Roboto Slab', serif; */
 /*No puedo cambiar la font family*/
-/*Barra de navegación lateral Index - 
- Quitar underline de los botones (cambiar clase de los <a>)
-
- Se soluciona así, con un class o ID que pise el alcance de la etiqueta <a>. 
- Deberíamos hacer un zoom para trabajar juntos, que me tiene mareado scss
- */
 .main__index .tarjeta--index {
   color: white;
 }
@@ -94,23 +89,17 @@ color: whgitite; */
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  z-index: -1;
 }
 
-/* a:link {
-    color: #000;
+.subtítulo__index {
+  margin-bottom: 20vh;
+  padding-left: 5vh;
+}
+.subtítulo__index h2 {
+  text-decoration-line: underline;
 }
 
-a:visited {
-    color: #000080;
-}
-
-a:hover {
-    color: #ff0000;
-}
-
-a:active {
-    color: #ff8000;
-} */
 .btn-modificado {
   border-color: #7041fe;
   margin-top: 15px;
@@ -128,6 +117,12 @@ a:active {
   }
 }
 
+.tarjeta--index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 780px) {
   .tarjeta--index {
     margin-top: 30px;
@@ -213,9 +208,15 @@ a:active {
 }
 
 .subtítulo__index h5 {
-  text-decoration: underline #25c087;
+  text-decoration-line: underline !important;
+  margin-bottom: 30px;
 }
 
+.cards__index {
+  margin-left: 40px;
+  margin-right: 40px;
+  z-index: -1;
+}
 .cards__index img {
   width: 100px;
   height: 80px;
@@ -279,6 +280,15 @@ a:active {
   color: #7041fe;
 }
 
+.section__galeria {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.section__galeria img {
+  width: 100px;
+  height: 80px;
+}
+
 .section__contacto {
   width: 50%;
   justify-content: center;
@@ -308,7 +318,8 @@ textarea {
 }
 
 .footer--modificado {
-  height: 400px;
+  margin-top: 100px;
+  height: 300px;
   background-image: url(/img/fondo2.png);
   background-size: 100% 100%;
 }
@@ -333,7 +344,7 @@ textarea {
 
 .contenedor__footer--modificado p {
   color: grey;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 15px;
 }
 

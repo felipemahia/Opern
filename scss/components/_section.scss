@@ -62,10 +62,15 @@
 
 .subtítulo__index {
     h5 {
-        text-decoration: underline $fourth-color;
+        text-decoration-line: underline !important;
+        margin-bottom: 30px;
     }
 }
 .cards__index {
+    margin-left: 40px;
+    margin-right: 40px;
+    z-index: -1;
+    
     img {
         width: 100px;
         height: 80px;
@@ -119,8 +124,6 @@
    
 }
 
-
-
 .card-galeria--modificada {
     h5 {
         font-weight: 600;
@@ -137,8 +140,16 @@
         color: $secondary-color;
     }
 }
-//Contacto
+.section__galeria {
+    margin-left: 100px;
+    margin-right: 100px;
+    img {
+        width: 100px;
+        height: 80px;
+    }
+}
 
+//Contacto
 
 .section__contacto {
     width: 50%;
