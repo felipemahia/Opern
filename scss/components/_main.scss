@@ -4,10 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap');
 
 
-
+@font-face {
+    font-family: "SF UI Display";
+    src: url('../../fonts/sf-ui-display-black-58646a6b80d5a.otf');
+}
 
 body {
-    font-family: 'Montserrat', sans-serif !important ;
+    font-family: '', sans-serif !important ;
 }
     /* background-color: $primary-color;
     color: whgitite; */
@@ -19,8 +22,6 @@ body {
 /*No puedo cambiar la font family*/
 
 .main__index {
-    
-    
     .tarjeta--index {
         
         color: white;
@@ -41,7 +42,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
-    z-index: -1;
+    z-index: 10;
+    /* img{
+        transform: rotate(180deg);
+    } */
+    
     
 }
 .subtítulo__index {
@@ -98,6 +103,20 @@ body {
 
 
     }
+}
+
+.titulo__index{
+    padding-top: 8rem;
+    padding-left: 18rem;
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: underline #25C0B7
+}
+
+.texto__index{
+    padding: 1rem 18rem 2rem 18rem;
+    font-size: 36px;
+    text-align: justify;
 }
 
 //Nosotros
