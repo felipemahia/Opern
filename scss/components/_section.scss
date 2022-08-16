@@ -134,10 +134,11 @@
 }
 
 .btn-contacto--modificado {
-    color: $fourth-color;
+    color: white;
     &:hover {
         background-color: $terciary-color;
-        color: $secondary-color;
+        color: none;
+        border: $primary-color;
     }
 }
 .section__galeria {
@@ -166,9 +167,9 @@
 .form-label{
     color: white;
 }
-.form-control{
+/* .form-control{
     
-}
+} */
 
 textarea {
     height: 10rem;

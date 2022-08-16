@@ -19,9 +19,9 @@ body {
 #header {
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
-/*No tomó el  sticky*/
 .navbar-modificada {
   background-color: #212933;
 }
@@ -65,14 +65,19 @@ body {
   }
 }
 
+@font-face {
+  font-family: "SF UI Display";
+  src: url("../../fonts/sf-ui-display-black-58646a6b80d5a.otf");
+}
 body {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "", sans-serif !important;
 }
 
 /* background-color: $primary-color;
 color: whgitite; */
 /* font-family: 'Roboto Slab', serif; */
 /*No puedo cambiar la font family*/
+/* HECHO EL 16/8 01:55 */
 .main__index .tarjeta--index {
   color: white;
 }
@@ -89,7 +94,10 @@ color: whgitite; */
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-  z-index: -1;
+  z-index: 10;
+  /* img{
+      transform: rotate(180deg);
+  } */
 }
 
 .subtítulo__index {
@@ -142,6 +150,20 @@ color: whgitite; */
   font-size: 25px;
 }
 
+.titulo__index {
+  padding-top: 8rem;
+  padding-left: 18rem;
+  font-size: 40px;
+  font-weight: 800;
+  text-decoration: underline #25C0B7;
+}
+
+.texto__index {
+  padding: 1rem 18rem 2rem 18rem;
+  font-size: 24px;
+  text-align: justify;
+}
+
 .main__nosotros h5 {
   font-weight: 600;
 }
@@ -150,8 +172,16 @@ color: whgitite; */
 }
 
 .titulo__nosotros {
-  font-weight: 600;
-  padding-bottom: 30px;
+  padding-top: 2rem;
+  font-size: 40px;
+  font-weight: 800;
+  text-decoration: underline #25C0B7;
+}
+
+.texto__nosotros {
+  font-size: 22px;
+  text-align: justify;
+  font-weight: 400;
 }
 
 .btn-contacto--modificado {
@@ -273,11 +303,12 @@ color: whgitite; */
 }
 
 .btn-contacto--modificado {
-  color: #25c087;
+  color: white;
 }
 .btn-contacto--modificado:hover {
   background-color: #f4a74d;
-  color: #7041fe;
+  color: none;
+  border: #161e29;
 }
 
 .section__galeria {
@@ -306,6 +337,9 @@ color: whgitite; */
   color: white;
 }
 
+/* .form-control{
+
+} */
 textarea {
   height: 10rem;
 }
