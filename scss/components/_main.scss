@@ -20,6 +20,7 @@ body {
 //Index
 
 /*No puedo cambiar la font family*/
+/* HECHO EL 16/8 01:55 */
 
 .main__index {
     .tarjeta--index {
@@ -115,7 +116,7 @@ body {
 
 .texto__index{
     padding: 1rem 18rem 2rem 18rem;
-    font-size: 36px;
+    font-size: 24px;
     text-align: justify;
 }
 
@@ -135,10 +136,17 @@ body {
 }
 
 .titulo__nosotros {
+    padding-top: 2rem;
+    //padding-left: 18rem;
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: underline #25C0B7;
+}
 
-    font-weight: 600;
-    padding-bottom: 30px;
-
+.texto__nosotros{
+    font-size: 22px;
+    text-align: justify;
+    font-weight: 400;
 }
 
 //Contacto 

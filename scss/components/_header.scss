@@ -5,7 +5,8 @@
 #header {
     position: sticky;
     top: 0;
-} /*No tomó el  sticky*/
+    z-index: 100;
+}
 
 .navbar-modificada {
     background-color: #212933;
