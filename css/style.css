@@ -59,7 +59,7 @@ body {
   border-radius: 20px;
 }
 
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 991px) {
   .btn-contacto {
     border: none;
   }
@@ -184,6 +184,12 @@ color: whgitite; */
   font-weight: 400;
 }
 
+.w-75 {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
 .btn-contacto--modificado {
   background-color: gray;
   color: white;
@@ -289,6 +295,11 @@ color: whgitite; */
   color: white;
 }
 
+.titulo__productos {
+  padding: 5rem;
+  text-decoration: underline #25c087;
+}
+
 .titulo__galeria {
   color: white;
   font-weight: 600;
@@ -308,7 +319,6 @@ color: whgitite; */
 .btn-contacto--modificado:hover {
   background-color: #f4a74d;
   color: none;
-  border: #161e29;
 }
 
 .section__galeria {
@@ -318,6 +328,14 @@ color: whgitite; */
 .section__galeria img {
   width: 100px;
   height: 80px;
+}
+
+.card__productos {
+  margin-top: 3rem;
+}
+
+.subtitulo__contacto {
+  margin-bottom: 3rem !important;
 }
 
 .section__contacto {
